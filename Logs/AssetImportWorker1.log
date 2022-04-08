@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b14 (eb6fa39764cb) revision 15429539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32469 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.0b14\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/rlee5/The Anima Automata 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53571
+Successfully changed project path to: C:/Users/rlee5/The Anima Automata 2
+C:/Users/rlee5/The Anima Automata 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.42 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b14 (eb6fa39764cb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rlee5/The Anima Automata 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b14/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003140 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.06 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+				TypeCache.Initialize (113ms)
+					TypeCache.ScanAssembly (112ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008253 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\rlee5\The Anima Automata 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rlee5\The Anima Automata 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+				TypeCache.Initialize (304ms)
+					TypeCache.ScanAssembly (300ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3566 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (58.5 KB). Loaded Objects now: 4031.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 2.710700 ms (FindLiveObjects: 0.307200 ms CreateObjectMapping: 0.173900 ms MarkObjects: 2.092500 ms  DeleteObjects: 0.136100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019185 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\rlee5\The Anima Automata 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rlee5\The Anima Automata 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+				TypeCache.Initialize (284ms)
+					TypeCache.ScanAssembly (276ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3542 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (32.5 KB). Loaded Objects now: 4037.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 3.453700 ms (FindLiveObjects: 0.242800 ms CreateObjectMapping: 0.109600 ms MarkObjects: 3.074900 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 250403.335237 seconds.
+  path: Assets/Materials/meanYellow.mat
+  artifactKey: Guid(d9098531c384ad143b168e35bb33b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/meanYellow.mat using Guid(d9098531c384ad143b168e35bb33b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa296ca72ab1c3c4081b4c6dc42419cb') in 0.292240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.650161 seconds.
+  path: Assets/Materials/Fantasy_Sword_and_Shield/3D_Model
+  artifactKey: Guid(7140bff71e5732a46946ea9d55791d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fantasy_Sword_and_Shield/3D_Model using Guid(7140bff71e5732a46946ea9d55791d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3455494cc09ab18c4e19d60a682e1f11') in 0.003051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.477668 seconds.
+  path: Assets/Materials/Fantasy_Sword_and_Shield/3D_Model/Materials/Mat_Sword.mat
+  artifactKey: Guid(e6dff15e1978a984d92eb9a7ae06eb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fantasy_Sword_and_Shield/3D_Model/Materials/Mat_Sword.mat using Guid(e6dff15e1978a984d92eb9a7ae06eb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbab031931663ec644a87964f16228a') in 0.026432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.410219 seconds.
+  path: Assets/Materials/RPG Swords/cutter02.FBX
+  artifactKey: Guid(a79a4b1e85d48274ba1c146f69249f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RPG Swords/cutter02.FBX using Guid(a79a4b1e85d48274ba1c146f69249f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9970cc624722899c4ffd97c13384aa74') in 0.171234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/RPG Swords/sword_epic.FBX
+  artifactKey: Guid(90c25ff0db82bf64cbc6b8e405018824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RPG Swords/sword_epic.FBX using Guid(90c25ff0db82bf64cbc6b8e405018824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d6fd5dce39dd8c8d8fa37d516b3bfd') in 0.018957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/RPG Swords/Katana.FBX
+  artifactKey: Guid(43cf19174db63f549b650fd48a60e071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RPG Swords/Katana.FBX using Guid(43cf19174db63f549b650fd48a60e071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276ef2ae1825f7cc98d37a8de360530e') in 0.019774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/RPG Swords/sword01.FBX
+  artifactKey: Guid(dd0682cd55d7f8342b8026ebb1cfc4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RPG Swords/sword01.FBX using Guid(dd0682cd55d7f8342b8026ebb1cfc4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6be192ecf09a1a4daf583402cfbdf70') in 0.019808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4904.264791 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/BlackLeatherRoundShield.prefab
+  artifactKey: Guid(a2edaf33681b4438b88e2e5d396f273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/BlackLeatherRoundShield.prefab using Guid(a2edaf33681b4438b88e2e5d396f273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a3afb21fab58ef14f90f362eadbc0c') in 0.228087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/BlueKnightlyShield.prefab
+  artifactKey: Guid(4ba199a08a7aa4949b5386c7f6cea4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/BlueKnightlyShield.prefab using Guid(4ba199a08a7aa4949b5386c7f6cea4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9fdbb3d4d9b003c47181ad0368f844') in 0.063915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/Longsword.prefab
+  artifactKey: Guid(5172963b7d01940c19eda39c2e63ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/Longsword.prefab using Guid(5172963b7d01940c19eda39c2e63ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6652d09a666eacb50e821201942b2e2') in 0.285068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/Rough Steel Buckler.prefab
+  artifactKey: Guid(3916b1f835bb84b5d80d509ffd44e9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/Rough Steel Buckler.prefab using Guid(3916b1f835bb84b5d80d509ffd44e9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6e1e7f9724691af7ac6b6cc0bb17d7') in 0.013706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/WoodenKiteShield.prefab
+  artifactKey: Guid(53b70f5a254284c5c8bef6ce9cff4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/WoodenKiteShield.prefab using Guid(53b70f5a254284c5c8bef6ce9cff4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbfa1ddf750437d251f1cd0bf83708b') in 0.017667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/MetalHeaterShield.prefab
+  artifactKey: Guid(86ec8d30b8f4f4818b46909c1ce3aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/MetalHeaterShield.prefab using Guid(86ec8d30b8f4f4818b46909c1ce3aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922c89fd0c8cc2357541640d236d0cf2') in 0.020451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/BlueWhiteNomadShield.prefab
+  artifactKey: Guid(7348b53d8071f4086ba93693fe17aa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/BlueWhiteNomadShield.prefab using Guid(7348b53d8071f4086ba93693fe17aa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01acb9cc0a02f97ffd5abea46015e0e5') in 0.015293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/Polished Steel Buckler.prefab
+  artifactKey: Guid(936e2e987678643b1857ce8a9ba5292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/Polished Steel Buckler.prefab using Guid(936e2e987678643b1857ce8a9ba5292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e1b962e564e5cbb6950f52044357c') in 0.014108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/Broadsword.prefab
+  artifactKey: Guid(3e6e93ed9efae4701b61a09a5e0377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/Broadsword.prefab using Guid(3e6e93ed9efae4701b61a09a5e0377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14767cbd0006324268a6a596ee8212ca') in 0.022105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/RoughGreenNomadShield.prefab
+  artifactKey: Guid(6eec77453c00c4849b32fcc3acfc770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/RoughGreenNomadShield.prefab using Guid(6eec77453c00c4849b32fcc3acfc770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87b12dd86c53db7230fb1d462b9d523') in 0.028897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Prefabs/RedWhiteNomadShield.prefab
+  artifactKey: Guid(93d8153be08894c5da2bf20c7b4d2374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Prefabs/RedWhiteNomadShield.prefab using Guid(93d8153be08894c5da2bf20c7b4d2374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0116c3b8919fae8c4897ae76e162c777') in 0.017616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.578146 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Shields/FlatRoundShield.fbx
+  artifactKey: Guid(77f31d00b763d4c2786157dd486d6d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Shields/FlatRoundShield.fbx using Guid(77f31d00b763d4c2786157dd486d6d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c1cba410a4d41b3bd50082e72f8642') in 0.215579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Shields
+  artifactKey: Guid(e19b8b145bfc041cc8bc3fd3d5529e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Shields using Guid(e19b8b145bfc041cc8bc3fd3d5529e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2dbde2d4d78816568119a789352d7e') in 0.002158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/To Arms! Shield and Sword/Shields/KnightlyShield.fbx
+  artifactKey: Guid(6fd3251a0839c42fe9fe2398c2a9e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/To Arms! Shield and Sword/Shields/KnightlyShield.fbx using Guid(6fd3251a0839c42fe9fe2398c2a9e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f3812bb48e203d162005423446e9c') in 0.135527 seconds 

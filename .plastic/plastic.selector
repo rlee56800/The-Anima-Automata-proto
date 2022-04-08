@@ -1,0 +1,4 @@
+repository "The Anima Automata 2@rlee56800@cloud"
+  path "/"
+    br "/main"
+    co "/main"
